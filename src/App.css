@@ -1,0 +1,23 @@
+:root{
+  --body_background:white;
+  --body_color:black;
+  --body_link:cyan;
+}
+[data-theme="dark"]{
+  --body_background:#0A192F;
+  --body_color:rgb(195, 190, 190);
+  --body_link:cyan; 
+}
+[data-theme="light"]{
+  --body_background:rgb(246, 245, 245);
+  --body_color:rgb(15, 15, 15);
+  --body_link:cyan; 
+}
+.App{
+  background-color: var(--body_background);
+  color: var(--body_color);
+
+}
+.App p{
+  color: var(--body_color);
+}

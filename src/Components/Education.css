@@ -1,0 +1,17 @@
+.vl {
+    border-left: 2px solid rgb(195, 201, 195);
+    height: 100px;
+  }
+ 
+  .animate__animated .animate__fadeInDown{
+    animation-duration: 5s;
+    /* animation-delay: 2s; */
+    overflow: hidden;
+    --animate-repeat: 1;
+    animation-fill-mode: both;
+  }
+  :root {
+    --animate-duration: 800ms;
+     --animate-delay: -2s;
+     --animate-repeat: 2;
+   }
